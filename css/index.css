@@ -1,0 +1,148 @@
+.div1 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.div1:hover {
+    -webkit-transform: rotate(360deg) scale(2);
+    -moz-transform: rotate(360deg) scale(2);
+    -ms-transform: rotate(360deg) scale(2);
+    -o-transform: rotate(360deg) scale(2);
+    transform: rotate(360deg) scale(2);
+    background-color: green
+}
+
+input[type=text]:hover,
+textarea:hover,
+select:hover {
+    background: yellow;
+    box-shadow: 2px 2px 10px 1px #33CCFF;
+    width: 300px;
+}
+
+input[type=text] {
+    font-style: italic;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+::-webkit-input-placeholder,
+ ::-moz-placeholder {
+    font-style: italic;
+}
+
+.imgtree {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 550px;
+}
+
+.imgone {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+}
+
+.imgtwo {
+    position: absolute;
+    left: 480px;
+    height: 73px;
+    width: 70px;
+    top: 177px;
+}
+
+.divtwo {
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+.box {
+    background-color: green;
+    transform: skewX(-23deg);
+}
+
+nav li {
+    display: inline-block;
+    transition: background 0.2s;
+    transform: skew(-20deg);
+    background: green;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 30px;
+    transform: skew(20deg);
+    color: white;
+}
+
+nav a:hover {
+    transform: skew(-40deg);
+}
+
+nav li:hover {
+    background: black;
+}
+
+.button {
+    background: #ff0000;
+    -webkit-border-radius: 42;
+    -moz-border-radius: 42;
+    border-radius: 42px;
+    -webkit-box-shadow: 0px 0px 30px #ff0000;
+    -moz-box-shadow: 0px 0px 30px #ff0000;
+    box-shadow: 0px 0px 30px #ff0000;
+    font-size: 35px;
+    padding: 40px;
+    border: solid #ffffff 13px;
+    cursor: pointer;
+}
+
+.badge {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: #EEE;
+    background-color: blue;
+}
+
+.ribbon {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+    color: black;
+}
+
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: yellow;
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+
+
+
